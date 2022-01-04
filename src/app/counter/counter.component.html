@@ -1,0 +1,20 @@
+<div class="wrapper">
+    <h2 class="targe-date">Current Date {{months[month] + " " + day + ", " + year}}</h2>
+    <h2 class="targe-date"> Select Countdown to date</h2>
+    <input  class="select-date" type="date" placeholder="Select Date" [(ngModel)]="selectDate"/>
+    <br>    
+    <br>
+    <div class="description">
+      <h3>Days</h3>
+      <h3>Hours</h3>
+      <h3>Minutes</h3>
+      <h3>Seconds</h3>
+      <br>  
+    </div>
+    <div class="times">
+      <h3>{{days}}</h3>
+      <h3>{{hours}}</h3>
+      <h3>{{minutes}}</h3>
+      <h3>{{seconds}}</h3>
+    </div>
+  </div>

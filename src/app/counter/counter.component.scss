@@ -1,0 +1,27 @@
+.wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    color:rgb(23, 7, 54);
+    .targe-date {
+      font-family: Lato;
+      text-align: center;
+    }
+    .select-date{
+      margin-left: 29%;
+      font-size: 22px;  
+    }
+    .description,
+    .times {
+      display: flex;
+      > h3 {
+        width: 25%;
+        font-family: Lato;
+        margin: 10px 0 0 0;
+        text-align: center;
+      }
+    }
+    .times {
+      font-size: 22px;
+    }
+  }
+  
